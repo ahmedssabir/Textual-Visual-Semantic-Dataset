@@ -6,7 +6,7 @@
 
 Modern image captaining relies heavily on extracting knowledge, from images such as objects, to capture the concept of static story inthe image. In this paper, we propose a textual visual context dataset for captioning, where the publicly available dataset COCO Captions [(Lin et al., 2014)](https://arxiv.org/pdf/1405.0312.pdf) has been extended with information about the scene (such as objects in the image). Since this information has textualform, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as anend-to-end training strategy or a post-processing based approach.
 
-Implementation of the paper [Visual Semantic Relatedness Dataset for Image Captioning](). sabir et al. XXXX.
+Implementation of the paper [Visual Semantic Relatedness Dataset for Image Captioning]().
 
 
 
