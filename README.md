@@ -1,0 +1,1 @@
+# Visual-Semantic-Relatedness-Dataset-for-Image-Captioning
