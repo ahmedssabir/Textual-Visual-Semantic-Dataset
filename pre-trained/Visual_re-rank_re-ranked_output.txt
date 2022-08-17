@@ -1,0 +1,9 @@
+a man riding on the back of a motorcycle 0.8895639974564639
+a person riding a motorcycle on a city street 0.8699054868636436
+a person riding a motorcycle down a city street 0.8665321958170883
+a man riding on the back of a motorcycle down a street 0.8645537987336105
+a man riding a motorcycle down a street 0.8582269252364088
+a man riding on the back of a motorcycle down a sidewalk 0.8581149928539996
+a man riding a motorcycle down the street 0.8569102761752505
+a man riding a motorcycle on a city street 0.85454545827468
+a man riding a motorcycle down a sidewalk 0.8493932857280806
