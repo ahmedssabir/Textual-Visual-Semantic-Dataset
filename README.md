@@ -12,7 +12,7 @@ Implementation of the paper [Visual Semantic Relatedness Dataset for Image Capti
 
 ##  Contents
 0. [Overview](#overview)
-1. [Visual semantic with BERT ](#Visual-semantic-with-BERT)
+1. [Visual semantic with BERT ](#Visual-semantic-with-BERT-CNN)
 2. [Dataset](#dataset)
 3. [Visual semantic with pre-trained model](#Visual-semantic-with-pre-trained-model)
 4. [Evaluation](#evaluation)
