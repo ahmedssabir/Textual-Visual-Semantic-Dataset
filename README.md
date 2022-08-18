@@ -6,7 +6,7 @@
 
 Modern image captaining relies heavily on extracting knowledge, from images such as objects, to capture the concept of static story inthe image. In this paper, we propose a textual visual context dataset for captioning, where the publicly available dataset COCO Captions [(Lin et al., 2014)](https://arxiv.org/pdf/1405.0312.pdf) has been extended with information about the scene (such as objects in the image). Since this information has textualform, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as anend-to-end training strategy or a post-processing based approach.
 
-Implementation of the paper [Visual Semantic Relatedness Dataset for Image Captioning]().
+This repository contains the  implementation of the paper  [Visual Semantic Relatedness Dataset for Image Captioning]().
 
 
 
@@ -26,7 +26,7 @@ We enrich COCO-caption with **textual Visual Context** information. We use [ResN
  object information for each COCO-caption image. We use three filter approaches to ensure quality of the dataset   (1) Threshold: to filter out predictions where the object classifier  is not confident enough, and (2) semantic alignment to with semantic similarity to remove duplicated object. (3) semantic relatedness score as soft-label:  to grantee the visual context and caption have strong relation, we use [Sentence RoBERTa](https://www.sbert.net)  -SBERT uses siamese network to derive meaningfully sentence embedding that can be compared via cosine similarity- to give a soft label via cosine similarity with **th**reshold to annotate the final label (if th > 0.2, 0.3, 0.4 then 1,0). Finally, to take advantage of the overlapping between the visual context and the caption, and to extract global information from each visual, we use BERT followed by a shallow CNN [(Kim, 2014)](https://arxiv.org/pdf/1408.5882.pdf).
 
 
-Quick start 
+
 ## Quick Start 
 For quick start please have a look this [project page](https://sabirdvd.github.io/project_page/Dataset_2022/index.html) and running the model in [Colab](https://colab.research.google.com/drive/1N0JVa6y8FKGLLSpiG7hd_W75UYhHRe2j?usp=sharing)  
 
