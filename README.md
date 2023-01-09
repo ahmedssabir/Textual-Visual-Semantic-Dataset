@@ -112,7 +112,15 @@ python eval.py
 
 ## Visual semantic with pre-trained model  
 
+
+<!--
 <img align="right" width="300" height="100" src="Pre-trained.png"> 
+-->
+
+<img align="right" width="300" height="100" src="overlaping.png"> 
+
+
+
 Although this approach  is  proposed  to  take  the  advantage  of  thedataset, we also investigate the use of out-of-the-box onthe generated text set with visual context. For this we follow similarity to probability but 
 
 we use only similarity and the confident of the classifier as:
