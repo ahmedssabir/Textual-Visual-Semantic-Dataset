@@ -4,7 +4,7 @@
 
 
 
-Modern image captaining relies heavily on extracting knowledge, from images such as objects, to capture the concept of static story in the image. 
+Modern image captaining relies heavily on extracting knowledge, from images such as objects, to capture the concept of a static story in the image. 
 In this paper, we propose a textual visual context dataset for image captioning, where the publicly available dataset COCO Captions 
 [(Lin et al., 2014)](https://arxiv.org/pdf/1405.0312.pdf) has been extended with information about the scene (such as objects in the image). Since this information has textual form, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as anend-to-end training strategy or a post-processing based approach.
 
