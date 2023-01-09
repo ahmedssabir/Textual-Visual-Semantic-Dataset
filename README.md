@@ -142,8 +142,16 @@ with Pre-trained [SBERT](https://www.sbert.net)
 ```
  python pre-trained/model.py --vis visual-context_label.txt --vis_prob visual-context_prob.txt --c caption.txt
 
+ 
 ```
-Download unspervied Data 
+
+## Synthetic + Real caption dataset 
+
+For future work, we plan to estimate the visual relatedness score by
+employing unsupervised learning (i.e. contrastive learning). 
+
+Feel free to download the training data 
+
 
  1. [Download CC](https://www.dropbox.com/s/pc1uv2rf6nqdp57/CC_caption_40.txt.zip) -> Caption dataset from Conceptinal Caption (CC) 2M (2255927 captions)
  2. [Download CC+wiki](https://www.dropbox.com/s/xuov24on8477zg8/All_Caption_ID.csv?dl=0) -> CC+1M-wiki 3M (3255928) 
