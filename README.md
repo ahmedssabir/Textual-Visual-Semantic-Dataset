@@ -4,7 +4,9 @@
 
 
 
-Modern image captaining relies heavily on extracting knowledge, from images such as objects, to capture the concept of static story inthe image. In this paper, we propose a textual visual context dataset for captioning, where the publicly available dataset COCO Captions [(Lin et al., 2014)](https://arxiv.org/pdf/1405.0312.pdf) has been extended with information about the scene (such as objects in the image). Since this information has textualform, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as anend-to-end training strategy or a post-processing based approach.
+Modern image captaining relies heavily on extracting knowledge, from images such as objects, to capture the concept of static story in the image. 
+In this paper, we propose a textual visual context dataset for image captioning, where the publicly available dataset COCO Captions 
+[(Lin et al., 2014)](https://arxiv.org/pdf/1405.0312.pdf) has been extended with information about the scene (such as objects in the image). Since this information has textual form, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as anend-to-end training strategy or a post-processing based approach.
 
 This repository contains the  implementation of the paper  [Visual Semantic Relatedness Dataset for Image Captioning]().
 
@@ -98,7 +100,7 @@ parser.add_argument('--CNN_filters', default='32', help='', type=int,required=Fa
 python BERT_CNN.py --train /train_0.4.tsv --epochs 5
 ```
 
-for inference only, downlad pre-trained model 
+for inference only, download pre-trained model 
 
 ```
 wget https://www.dropbox.com/s/ip7p0wiwkwvph5k/0.4_bert-cnn.zip
@@ -121,7 +123,9 @@ python eval.py
 
 
 
-Although this approach  is  proposed  to  take  the  advantage  of  thedataset, we also investigate the use of out-of-the-box onthe generated text set with visual context. For this we follow similarity to probability but 
+Although this approach is proposed to take the advantage of the dataset, we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e., caption)  and its environmental visual context. 
+
+For this we follow similarity to probability based approach but 
 
 we use only similarity and the confident of the classifier as:
 
