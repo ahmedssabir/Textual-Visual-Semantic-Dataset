@@ -143,21 +143,6 @@ with Pre-trained [SBERT](https://www.sbert.net)
  python pre-trained/model.py --vis visual-context_label.txt --vis_prob visual-context_prob.txt --c caption.txt
 ```
 
-## Synthetic + Real caption dataset 
-
-For future work, we plan to estimate the visual relatedness score by
-employing unsupervised learning (i.e. contrastive learning). 
-
-Feel free to download the training data 
-
-
- 1. [Download CC](https://www.dropbox.com/s/pc1uv2rf6nqdp57/CC_caption_40.txt.zip) -> Caption dataset from Conceptinal Caption (CC) 2M (2255927 captions)
- 2. [Download CC+wiki](https://www.dropbox.com/s/xuov24on8477zg8/All_Caption_ID.csv?dl=0) -> CC+1M-wiki 3M (3255928) 
- 3. [Download CC+wiki+COCO](https://www.dropbox.com/s/k7oqwr9a1a0h8x1/CC_caption_40%2Bwiki%2BCOCO.txt.zip) -> CC+wiki+COCO-Caption 3.5M (366984)
- 4. [Download COCO-caption+wiki](https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip) -> COCO-caption +wiki 1.4M (1413915)
- 5. [Download COCO-caption+wiki+CC+8Mwiki](https://www.dropbox.com/s/xhfx32sjy2z5bpa/11M_wiki_7M%2BCC%2BCOCO.txt.zip) -> COCO-caption+wiki+CC+8Mwiki 11M (11541667) 
-
-
 ## Evaluation
 
 [Download pycocoevalcap](https://github.com/salaniz/pycocoevalcap)
@@ -171,6 +156,19 @@ Then run
 python Evaluation/coco_eval.py --f Result_tune_BERT_0.4.json
 ```
 
+## Synthetic + Real caption dataset 
+
+For future work, we plan to estimate the visual relatedness score by
+employing unsupervised learning (i.e. contrastive learning). 
+
+Feel free to download the training data 
+
+
+ 1. [Download CC](https://www.dropbox.com/s/pc1uv2rf6nqdp57/CC_caption_40.txt.zip) -> Caption dataset from Conceptinal Caption (CC) 2M (2255927 captions)
+ 2. [Download CC+wiki](https://www.dropbox.com/s/xuov24on8477zg8/All_Caption_ID.csv?dl=0) -> CC+1M-wiki 3M (3255928) 
+ 3. [Download CC+wiki+COCO](https://www.dropbox.com/s/k7oqwr9a1a0h8x1/CC_caption_40%2Bwiki%2BCOCO.txt.zip) -> CC+wiki+COCO-Caption 3.5M (366984)
+ 4. [Download COCO-caption+wiki](https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip) -> COCO-caption +wiki 1.4M (1413915)
+ 5. [Download COCO-caption+wiki+CC+8Mwiki](https://www.dropbox.com/s/xhfx32sjy2z5bpa/11M_wiki_7M%2BCC%2BCOCO.txt.zip) -> COCO-caption+wiki+CC+8Mwiki 11M (11541667) 
 
 ## Citation
 
