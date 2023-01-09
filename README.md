@@ -123,7 +123,7 @@ python eval.py
 
 
 
-Although this approach is proposed to take the advantage of the dataset, we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e., caption)  and its environmental visual context. 
+Although this approach is proposed to take the advantage of the dataset, we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e. caption)  and its environmental visual context. 
 
 For this we follow similarity to probability based approach but 
 
