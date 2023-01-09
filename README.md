@@ -117,7 +117,7 @@ python eval.py
 <img align="right" width="300" height="100" src="Pre-trained.png"> 
 -->
 
-<img align="right" width="300" height="100" src="overlaping.png"> 
+<img align="right" width="350" height="150" src="overlaping.png"> 
 
 
 
