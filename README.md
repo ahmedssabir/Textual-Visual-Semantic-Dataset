@@ -30,7 +30,7 @@ We enrich COCO-Captions with **Textual Visual Context** information. We use [Res
 
 
 ## Quick Start 
-For quick start please have a look this [project page](https://sabirdvd.github.io/project_page/Dataset_2022/index.html) 
+For a quick start please have a look at this [project page](https://sabirdvd.github.io/project_page/Dataset_2022/index.html) 
 and [Demo](https://github.com/ahmedssabir/Textual-Visual-Semantic-Dataset/blob/main/BERT_CNN_Visual_re_ranker_demo.ipynb)  
 
 
@@ -131,7 +131,7 @@ we use only similarity and the confident of the classifier as:
 
 <img src="https://render.githubusercontent.com/render/math?math=\text{P}(w \mid c)=\text{}sim(w,c)^{\text{P}(c)}"> 
 
-where the main components of hypothesis revision as caption visual semantics re-ranker:
+where the main components of the visual semantics re-ranker:
 
 1. Simialrity/relatedness between the caption and the object context  <img src="https://render.githubusercontent.com/render/math?math=\text{}sim(w,c)"> 
    
