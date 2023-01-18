@@ -127,7 +127,8 @@ Although this approach is proposed to take the advantage of the dataset (e.g. vi
 
 For this we follow similarity to probability based approach but 
 
-we use only the cosine similarity from a pre-trained model and the confident of the classifier as:
+we use only the cosine similarity from a pre-trained model and the top-3 averaged prob (confidence) from the object classifier as
+
 
 <img src="https://render.githubusercontent.com/render/math?math=\text{P}(w \mid c)=\text{}sim(w,c)^{\text{P}(c)}"> 
 
