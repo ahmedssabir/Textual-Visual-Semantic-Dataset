@@ -119,7 +119,7 @@ python eval.py
 <img align="right" width="300" height="100" src="Pre-trained.png"> 
 -->
 
-<img align="right" width="350" height="120" src="Pre-trained.png"> 
+<img align="right" width="350" height="110" src="Pre-trained.png"> 
 
 
 
