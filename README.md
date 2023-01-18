@@ -123,7 +123,7 @@ python eval.py
 
 
 
-Although this approach is proposed to take the advantage of the dataset, we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e. caption)  and its environmental visual context (visual classifier). 
+Although this approach is proposed to take the advantage of the dataset(visual semantic), we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e. caption)  and its environmental visual context (visual classifier). 
 
 For this we follow similarity to probability based approach but 
 
@@ -159,7 +159,7 @@ python Evaluation/coco_eval.py --f Result_tune_BERT_0.4.json
 ## Synthetic + Real caption dataset 
 
 For future work, we plan to estimate the visual relatedness score by
-employing unsupervised learning (i.e. contrastive learning). 
+employing unsupervised learning (i.e. contrastive learning). (work in progress)
 
 Feel free to download the training data 
 
