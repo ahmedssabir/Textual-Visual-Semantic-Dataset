@@ -123,11 +123,11 @@ python eval.py
 
 
 
-Although this approach is proposed to take the advantage of the dataset, we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e. caption)  and its environmental visual context. 
+Although this approach is proposed to take the advantage of the dataset, we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e. caption)  and its environmental visual context (visual classifier). 
 
 For this we follow similarity to probability based approach but 
 
-we use only similarity and the confident of the classifier as:
+we use only the similarity from a pre-trained model and the confident of the classifier as:
 
 <img src="https://render.githubusercontent.com/render/math?math=\text{P}(w \mid c)=\text{}sim(w,c)^{\text{P}(c)}"> 
 
