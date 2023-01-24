@@ -40,8 +40,9 @@ We enrich COCO-Captions with **Textual Visual Context** information. We use [Res
 For a quick start please have a look at this [project page](https://sabirdvd.github.io/project_page/Dataset_2022/index.html) 
 and [Demo](https://github.com/ahmedssabir/Textual-Visual-Semantic-Dataset/blob/main/BERT_CNN_Visual_re_ranker_demo.ipynb)  
 
+<!--
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/ahmedssabir/Textual-Visual-Semantic-Dataset/blob/main/BERT_CNN_Visual_re_ranker_demo.ipynb)
-
+-->
 ## Dataset 
 
 ### Sample 
