@@ -8,7 +8,14 @@ Modern image captioning relies heavily on extracting knowledge, from images such
 In this paper, we propose a textual visual context dataset for image captioning, where the publicly available dataset COCO Captions 
 [(Lin et al., 2014)](https://arxiv.org/pdf/1405.0312.pdf) has been extended with information about the scene (such as objects in the image). Since this information has textual form, it can be used to leverage any NLP task, such as text similarity or semantic relation methods, into captioning systems, either as an end-to-end training strategy or a post-processing based approach.
 
+[![arXiv](https://img.shields.io/badge/arXiv-2301.08784-b31b1b.svg)](https://arxiv.org/abs/2301.08784)  [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://ahmed.jp/project_page/Dataset_2022/index.html)
+
 This repository contains the  implementation of the paper  [Visual Semantic Relatedness Dataset for Image Captioning](https://arxiv.org/abs/2301.08784).
+
+
+
+
+
 
 
 
