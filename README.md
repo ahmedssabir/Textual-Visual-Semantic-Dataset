@@ -179,17 +179,17 @@ Feel free to download the training data
  4. [Download COCO-caption+wiki](https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip) -> COCO-caption +wiki 1.4M (1413915)
  5. [Download COCO-caption+wiki+CC+8Mwiki](https://www.dropbox.com/s/xhfx32sjy2z5bpa/11M_wiki_7M%2BCC%2BCOCO.txt.zip) -> COCO-caption+wiki+CC+8Mwiki 11M (11541667) 
 
-<!--
+
 ## Citation
 
 The details of this repo are described in the following paper. If you find this repo useful, please kindly cite it:
 
 ```bibtex
-@inproceedings{XXXXXX,
-  title={ZZZZZZ},
-  author={XXXXX},
-  booktitle={XXXX},
+@article{sabir2023visual,
+  title={Visual Semantic Relatedness Dataset for Image Captioning},
+  author={Sabir, Ahmed and Moreno-Noguer, Francesc and Padr{\'o}, Llu{\'\i}s},
+  journal={arXiv preprint arXiv:2301.08784},
   year={2023}
 }
 ```
--->
+
