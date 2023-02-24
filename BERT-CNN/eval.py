@@ -43,9 +43,6 @@ print(input_op, output_op)
 x = restored_graph.get_tensor_by_name(input_op + ':0')
 y = restored_graph.get_tensor_by_name(output_op + ':0')
 
-# also need a flag here
-
-#
 preprocessor = build_preprocessor("uncased_L-12_H-768_A-12/vocab.txt", 64)
 py_func = tf.numpy_function(preprocessor, [x], [tf.int32, tf.int32, tf.int32], name='preprocessor')
 
