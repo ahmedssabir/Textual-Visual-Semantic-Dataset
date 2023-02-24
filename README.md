@@ -115,11 +115,21 @@ wget https://www.dropbox.com/s/ip7p0wiwkwvph5k/0.4_bert-cnn.zip
 unzip 0.4_bert-cnn.zip
 ``` 
 
-
 ```
 python eval.py --testset test_demo.tsv --model 0.4_bert-cnn/frozen_graph.pb
 ```
+### Example 
 
+Re-rank the most related caption to the image using the visual context information.
+
+ <img align="center" width="400" height="300" src="COCO_val2014_000000000042.jpg"> 
+
+ ```
+ visual information, candidate caption (beam search)
+ standard poodle shopping cart footwear, a close up of shoes and a dog in a basket, 0.99774158
+ standard poodle shopping cart footwear, a brown teddy bear laying on top of a pair of shoes, 0.0621758029 
+ ```
+ 
 ## Visual semantic with pre-trained model  
 
 
