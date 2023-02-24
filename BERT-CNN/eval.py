@@ -55,13 +55,13 @@ py_func = tf.numpy_function(preprocessor, [x], [tf.int32, tf.int32, tf.int32])
 
 sess = tf.Session(graph=restored_graph)
 
-print(trX[:4])
+print(trX[:2])
 
 y = tf.print(y, summarize=-1)
 #x = tf.print(x, summarize=-1)
 y_out = sess.run(y, feed_dict={
-        x: trX[:4].reshape((-1,1))
- 	      #x: trX[:90000].reshape((-1,1))
+        x: trX[:2].reshape((-1,1))
+
     })
 
 print(y_out)
