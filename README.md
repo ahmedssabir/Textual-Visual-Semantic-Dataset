@@ -117,7 +117,7 @@ unzip 0.4_bert-cnn.zip
 
 
 ```
-python eval.py
+python eval.py --testset test_demo.tsv --model 0.4_bert-cnn/frozen_graph.pb
 ```
 
 ## Visual semantic with pre-trained model  
