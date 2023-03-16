@@ -97,7 +97,7 @@ for i in range(len(get_lines(args.vis))):
   
     score = Visual_re_ranker(visual_context_prob, sim)
     score = score.p_minus()
-    score = score.real
+    #score = score.real
     temp.append(score)
     
     #result = ','.join((caption, LM, str(score)))
