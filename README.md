@@ -159,7 +159,7 @@ where the main components of the visual semantics re-ranker:
 with Pre-trained [SBERT](https://www.sbert.net)
 
 ```
- python pre-trained/model.py --vis visual-context_label.txt --vis_prob visual-context_prob.txt --c caption.txt
+ python model.py --vis visual-context_label.txt --vis_prob visual-context_prob.txt --c caption.txt
 ```
 
 ## Evaluation
