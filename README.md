@@ -12,7 +12,7 @@ In this paper, we propose a textual visual context dataset for image captioning,
 This repository contains the  implementation of the paper  [Visual Semantic Relatedness Dataset for Image Captioning](https://arxiv.org/abs/2301.08784).
 
 [![arXiv](https://img.shields.io/badge/arXiv-2301.08784-b31b1b.svg)](https://arxiv.org/abs/2301.08784)  [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://ahmed.jp/project_page/Dataset_2022/index.html)
-
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97-huggingface-yellow)](https://huggingface.co/datasets/AhmedSSabir/Textual-Image-Caption-Dataset)
 
 
 
