@@ -174,7 +174,7 @@ Then run
 ```
 python Evaluation/coco_eval.py --f Result_tune_BERT_0.4.json
 ```
-For more  evaluation ([Lexical and semantic Diversity](https://github.com/ahmedssabir/Belief-Revision-Score/tree/main/SBERT-caption-eval)) 
+For more  evaluation ([Lexical and Semantic Diversity](https://github.com/ahmedssabir/Belief-Revision-Score/tree/main/SBERT-caption-eval)) 
 
 ## Synthetic + Real caption dataset 
 
