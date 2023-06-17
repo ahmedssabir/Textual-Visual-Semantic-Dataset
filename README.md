@@ -169,6 +169,7 @@ with Pre-trained [SBERT](https://www.sbert.net)
 ```
  python model.py --vis visual-context_label.txt --vis_prob visual-context_prob.txt --c caption.txt
 ```
+Please refer to this [repositories](https://github.com/ahmedssabir/Belief-Revision-Score) for more information about pre-trained visual re-ranker [probability from similarity](https://cdn.aaai.org/Symposia/Spring/2003/SS-03-05/SS03-05-005.pdf)
 
 ## Evaluation
 
