@@ -187,7 +187,7 @@ For more  evaluation ([Lexical and Semantic Diversity](https://github.com/ahmeds
 
 ## Synthetic + Real caption dataset 
 
-For future work, we plan to estimate the visual relatedness score by
+For future work, we plan to extract the visual context from the caption (without using a visual classifier) and estimate the visual relatedness score by
 employing unsupervised learning (i.e. contrastive learning). (work in progress)
 
 Feel free to download the training data 
