@@ -1,0 +1,1 @@
+Please refer to this [repositories](https://github.com/ahmedssabir/Belief-Revision-Score) for more information about pre-trained visual re-ranker [probability from similarity](https://cdn.aaai.org/Symposia/Spring/2003/SS-03-05/SS03-05-005.pdf)
