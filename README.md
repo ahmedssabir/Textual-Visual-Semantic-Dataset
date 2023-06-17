@@ -40,7 +40,7 @@ This repository contains the  implementation of the paper  [Visual Semantic Rela
 <img align="right" width="300" height="280" src="LRCE_figure_1.png"> 
 
 We enrich COCO-Captions with **Textual Visual Context** information. We use [ResNet152](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf), [CLIP](https://github.com/openai/CLIP) and [Faster R-CNN](https://github.com/tensorflow/models/tree/master/research/object_detection) to extract
- object information for each COCO-caption image. We use three filter approaches to ensure the quality of the dataset   (1) Threshold: to filter out predictions where the object classifier  is not confident enough, and (2) semantic alignment with semantic similarity to remove duplicated objects. (3) semantic relatedness score as Soft-Label:  to guarantee the visual context and caption have strong relation, we use [Sentence RoBERTa](https://www.sbert.net) to give a soft label via cosine similarity and then we use a **th**reshold to annotate the final label (if th ≥ 0.2, 0.3, 0.4 then [1,0]). Finally, to take advantage of the overlapping between the visual context and the caption, and to extract global information from each visual, we use BERT followed by a shallow CNN [(Kim, 2014)](https://arxiv.org/pdf/1408.5882.pdf) to estimate the visual relatedness score. 
+ object information for each COCO-caption image. We use three filter approaches to ensure the quality of the dataset   (1) Threshold: to filter out predictions where the object classifier  is not confident enough, and (2) semantic alignment with semantic similarity to remove duplicated objects. (3) semantic relatedness score as Soft-Label:  to guarantee the visual context and caption have strong relation, we use [Sentence RoBERTa-sts](https://www.sbert.net) to give a soft label via cosine similarity and then we use a **th**reshold to annotate the final label (if th ≥ 0.2, 0.3, 0.4 then [1,0]). Finally, to take advantage of the overlapping between the visual context and the caption, and to extract global information from each visual, we use BERT followed by a shallow CNN [(Kim, 2014)](https://arxiv.org/pdf/1408.5882.pdf) to estimate the visual relatedness score. 
 
 
 
@@ -149,7 +149,7 @@ Re-rank the most related caption to the image using the visual context informati
 
 
 
-Although this approach is proposed to take the advantage of the dataset (e.g. visual semantic model), we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (i.e. caption)  and its environmental visual context (we call it visual classifier). 
+Although this approach is proposed to take the advantage of the dataset (_e.g._ visual semantic model), we also investigate the use of out-of-the-box tools to estimate the relatedness score between the short text (_i.e._ caption)  and its environmental visual context (we call it visual classifier). 
 
 For this we follow similarity to probability based approach but 
 
