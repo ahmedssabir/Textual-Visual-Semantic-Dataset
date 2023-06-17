@@ -36,3 +36,4 @@ run
 COCO_val2014_000000185210.jpg 'barrow', 0.0954
 COCO_val2014_000000235692.jpg  'ox', 0.5092
 ```
+For more visual classifier (e.g., Vit, SwinV2, etc.) please refre to this [page](https://github.com/ahmedssabir/Belief-Revision-Score/tree/main/model/Resent-152) 
