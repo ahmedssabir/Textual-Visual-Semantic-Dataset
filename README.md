@@ -169,7 +169,7 @@ with Pre-trained [SBERT](https://www.sbert.net)
 ```
  python model.py --vis visual-context_label.txt --vis_prob visual-context_prob.txt --c caption.txt
 ```
-Please refer to this [repositories](https://github.com/ahmedssabir/Belief-Revision-Score) for more information about pre-trained visual re-ranker [probability from similarity](https://cdn.aaai.org/Symposia/Spring/2003/SS-03-05/SS03-05-005.pdf)
+Please refer to this [repository](https://github.com/ahmedssabir/Belief-Revision-Score) for more information about pre-trained visual re-ranker [probability from similarity](https://cdn.aaai.org/Symposia/Spring/2003/SS-03-05/SS03-05-005.pdf)
 
 ## Evaluation
 
@@ -183,7 +183,7 @@ Then run
 ```
 python Evaluation/coco_eval.py --f Result_tune_BERT_0.4.json
 ```
-For more  evaluation ([Lexical and Semantic Diversity](https://github.com/ahmedssabir/Belief-Revision-Score/tree/main/SBERT-caption-eval)) 
+For more evaluation ([Lexical and Semantic Diversity](https://github.com/ahmedssabir/Belief-Revision-Score/tree/main/SBERT-caption-eval)) 
 
 ## Synthetic + Real caption dataset 
 
