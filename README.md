@@ -65,7 +65,7 @@ and [Demo](https://github.com/ahmedssabir/Textual-Visual-Semantic-Dataset/blob/m
 ### Download 
 
 0. [Dowload Raw data with ID and Visual context](https://www.dropbox.com/s/xuov24on8477zg8/All_Caption_ID.csv?dl=0) -> original dataset with related ID caption [train2014](https://cocodataset.org/#download)
-1. [Downlod Data with cosine score](https://www.dropbox.com/s/u1n2r2ign8v7gvh/visual_caption_cosine_score.zip?dl=0)-> soft cosine lable with **th** 0.2, 0.3, 0.4 and 0.5
+1. [Downlod Data with cosine score](https://www.dropbox.com/s/55sit8ow9tems4u/visual_caption_cosine_score.zip?dl=0)-> soft cosine lable with **th** 0.2, 0.3, 0.4 and 0.5 and hard-label
 2. [Dowload Overlaping visual with caption](https://www.dropbox.com/s/br8nhnlf4k2czo8/COCO_overlaping_dataset.txt?dl=0)-> Overlap visual context and the human annotated caption 
 3. [Download Dataset (tsv file)](https://www.dropbox.com/s/dh38xibtjpohbeg/train_all.zip?dl=0) 0.0-> raw data with hard lable without cosine similairty and with **th**reshold  cosine sim degree of the relation beteween the visual and caption = 0.2, 0.3, 0.4
 4. [Download Dataset GenderBias](https://www.dropbox.com/s/1wki0b0d21078mj/gender%20natural.zip?dl=0)-> man/woman replaced with person class label
