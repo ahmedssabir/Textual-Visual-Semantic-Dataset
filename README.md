@@ -22,9 +22,8 @@ This repository contains the  implementation of the paper  [Visual Semantic Rela
 [![arXiv](https://img.shields.io/badge/arXiv-2301.08784-b31b1b.svg)](https://arxiv.org/abs/2301.08784)  [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://ahmed.jp/project_page/Dataset_2022/index.html)
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97-huggingface-yellow)](https://huggingface.co/datasets/AhmedSSabir/Textual-Image-Caption-Dataset)
 [![O-DRUM - poster](https://img.shields.io/badge/O--DRUM-poster-0065BD)](https://ahmed.jp/project_page/Dataset_2022/poster_20.pdf)
-<!--
 [![O-DRUM - slide](https://img.shields.io/badge/O--DRUM-slide-0065BD)](https://ahmed.jp/project_page/Dataset_2022/spotlight_ppt_ID_20.pdf)
--->
+
 
 
 
