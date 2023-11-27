@@ -23,7 +23,7 @@ This repository contains the  implementation of the paper  [Visual Semantic Rela
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97-huggingface-yellow)](https://huggingface.co/datasets/AhmedSSabir/Textual-Image-Caption-Dataset)
 [![O-DRUM - poster](https://img.shields.io/badge/O--DRUM-poster-0065BD)](https://ahmed.jp/project_page/Dataset_2022/poster_20.pdf)
 [![O-DRUM - slide](https://img.shields.io/badge/O--DRUM-slide-0065BD)](https://ahmed.jp/project_page/Dataset_2022/spotlight_ppt_ID_20.pdf)
-[![YouTube - spotlight talk](https://img.shields.io/badge/YouTube-spotlight_talk-red)](https://youtu.be/-br99Q--bxM)
+<!--[![YouTube - spotlight talk](https://img.shields.io/badge/YouTube-spotlight_talk-red)](https://youtu.be/-br99Q--bxM)-->
 
 
 
@@ -155,14 +155,23 @@ For this we follow similarity to probability based approach but
 
 we use only the cosine similarity from a pre-trained model and the top-3 averaged prob (confidence) from the object classifier as:
 
-
+<!--
 <img src="https://render.githubusercontent.com/render/math?math=\text{P}(w \mid c)=\text{}sim(w,c)^{\text{P}(c)}"> 
+-->
 
+$\text{P}(w \mid c)=\text{}sim(w,c)^{\text{P}(c)}$ 
 where the main components of the visual semantics re-ranker:
+<!--
+1. Simialrity/relatedness between the caption and the object context  <img src="https://render.githubusercontent.com/render/math?math=\text{}sim(w,c)">
+-->
+1. Simialrity/relatedness between the caption and the object context  $\text{}sim(w,c)$ 
 
-1. Simialrity/relatedness between the caption and the object context  <img src="https://render.githubusercontent.com/render/math?math=\text{}sim(w,c)"> 
-   
-2. <img src="https://render.githubusercontent.com/render/math?math=\text{P}(c)">  is the classifier confidnent <img src="https://render.githubusercontent.com/render/math?math=\text{P}(w \mid object)"> 
+<!--
+2. <img src="https://render.githubusercontent.com/render/math?math=\text{P}(c)">  is the classifier confidnent <img src="https://render.githubusercontent.com/render/math?math=\text{P}(w \mid object)">
+-->
+
+2. $\text{P}(c)$  is the classifier object confident in the image $\text{P}(w \mid \text{object})$ 
+
 
 with Pre-trained [SBERT](https://www.sbert.net)
 
