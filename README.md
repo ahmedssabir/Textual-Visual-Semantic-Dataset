@@ -26,7 +26,7 @@ This repository contains the  implementation of the paper  [Visual Semantic Rela
 <!--[![YouTube - spotlight talk](https://img.shields.io/badge/YouTube-spotlight_talk-red)](https://youtu.be/-br99Q--bxM)-->
 
 ## News 
-Add v2 with recent SoTA model swinV2 classifier for both soft/hard-label visual_caption_cosine_score_v2 with person label (0.2, 0.3 and 0.4)
+Add v2 with recent SoTA model swinV2 classifier for both soft/hard-label visual_caption_cosine_score_v2 with person label (0.2, 0.3 and 0.4). Please refer to huggingface repository.
 
 ##  Contents
 0. [Overview](#overview)
