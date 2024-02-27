@@ -25,7 +25,8 @@ This repository contains the  implementation of the paper  [Visual Semantic Rela
 [![O-DRUM - slide](https://img.shields.io/badge/O--DRUM-slide-0065BD)](https://ahmed.jp/project_page/Dataset_2022/spotlight_ppt_ID_20.pdf)
 <!--[![YouTube - spotlight talk](https://img.shields.io/badge/YouTube-spotlight_talk-red)](https://youtu.be/-br99Q--bxM)-->
 
-
+## News 
+Add v2 with recent SoTA model swinV2 classifier for both soft/hard-label visual_caption_cosine_score_v2 with person label (0.2, 0.3 and 0.4)
 
 ##  Contents
 0. [Overview](#overview)
