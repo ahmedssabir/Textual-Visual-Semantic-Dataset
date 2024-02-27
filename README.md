@@ -193,7 +193,7 @@ Then run
 python Evaluation/coco_eval.py --f Result_tune_BERT_0.4.json
 ```
 For more evaluation ([Lexical and Semantic Diversity](https://github.com/ahmedssabir/Belief-Revision-Score/tree/main/SBERT-caption-eval)) 
-
+<!--
 ## Synthetic + Real caption dataset 
 
 For future work, we plan to extract the visual context from the caption (without using a visual classifier) and estimate the visual relatedness score by
@@ -208,7 +208,7 @@ Feel free to download the training data
  4. [Download COCO-caption+wiki](https://www.dropbox.com/s/wc4k677wp24kzhh/COCO%2Bwiki.txt.zip) -> COCO-caption +wiki 1.4M (1413915)
  5. [Download COCO-caption+wiki+CC+8Mwiki](https://www.dropbox.com/s/xhfx32sjy2z5bpa/11M_wiki_7M%2BCC%2BCOCO.txt.zip) -> COCO-caption+wiki+CC+8Mwiki 11M (11541667) 
 
-
+-->
 
 
 ## Citation
